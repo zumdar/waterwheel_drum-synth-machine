@@ -3220,7 +3220,7 @@
       (reference "U7") (unit 1) (value "4017") (footprint "Package_SO:SO-16_5.3x10.2mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000063a4d6ef/00000000-0000-0000-0000-000063a6ae63"
-      (reference "U8") (unit 1) (value "555(NEW_layout)") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
+      (reference "U8") (unit 1) (value "555(NEW_layout)") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-0000639e7087/00000000-0000-0000-0000-000063a0d68f"
       (reference "U9") (unit 1) (value "4066") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")

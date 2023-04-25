@@ -5013,7 +5013,7 @@
     (property "Value" "555(NEW_layout)" (id 1) (at 171.2976 130.683 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" (id 2) (at 157.48 129.54 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 157.48 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm555.pdf" (id 3) (at 157.48 129.54 0)
