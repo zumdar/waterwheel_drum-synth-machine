@@ -1,0 +1,37 @@
+Comment,Designator,Footprint,LCSC
+100u,C11,C_1206_3216Metric,C15008
+1k,"R1,R10,R13,R16,R17,R2,R20,R24,R26,R27,R32,R33,R34,R39,R4,R40,R41,R42,R45,R5,R55,R56,R57,R59,R62,R9",R_0603_1608Metric,C17513
+4.7u,"C3,C9",C_0805_2012Metric,C1779
+4069,U2,SO-14_3.9x8.65mm_P1.27mm,C194330
+1N4148,"D1,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D2,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D3,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39,D4,D40,D41,D42,D43,D44,D45,D46,D47,D48,D49,D5,D50,D6,D7,D8,D9",D_SOD-323,C2128
+2N3904,"Q1,Q10,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q2,Q20,Q21,Q22,Q23,Q24,Q25,Q3,Q4,Q5,Q6,Q7,Q8,Q9",TSOT-23,C2146
+4.7k,R48,R_0603_1608Metric,C23162
+470,"R51,R52,R63,R64,R65,R66,R67,R68,R69,R70,R71,R72",R_0603_1608Metric,C23179
+100k,"R11,R12,R14,R15,R18,R19,R21,R22,R23,R25,R3,R35,R36,R37,R38,R43,R44,R53,R54,R58,R6,R60,R7,R8",R_0603_1608Metric,C25803
+10k,"R46,R47,R49,R50,R61",R_0603_1608Metric,C25804
+100nf,"C1,C2,C4,C5,C6,C7,C8",C_0805_2012Metric,C28233
+22k,"R28,R30,R31",R_0603_1608Metric,C31850
+4040,U5,SO-16_5.3x10.2mm_P1.27mm,C353974
+4017,"U1,U4,U7",SO-16_5.3x10.2mm_P1.27mm,C356694
+4081,U6,SO-14_3.9x8.65mm_P1.27mm,C40551
+2.2u,C12,C_0805_2012Metric,C49217
+0.1u,"C10,C13",C_0805_2012Metric,C49678
+4066,U9,SO-14_3.9x8.65mm_P1.27mm,C54755
+555(NEW_layout),U8,SOIC-8_5.275x5.275mm_P1.27mm,C7593
+LED,D51,D_0805_2012Metric,C84256
+RELAY out,J13,"PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal",
+volc audio in/out. button trig,J12,"PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal",
+Drum_Returns,J11,"PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal",
+LEDS_volca,J10,"PhoenixContact_MC_1,5_16-G-3.81_1x16_P3.81mm_Horizontal",
+power and clock,J9,"PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal",
+LED_binary,J8,"PhoenixContact_MC_1,5_12-G-3.81_1x12_P3.81mm_Horizontal",
+Volca_steps,J7,"PhoenixContact_MC_1,5_16-G-3.81_1x16_P3.81mm_Horizontal",
+Drum_sw_TT,J6,"PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal",
+LED_drums,J5,"PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal",
+"12x binary outs, 2x ins",J4,"PhoenixContact_MC_1,5_14-G-3.81_1x14_P3.81mm_Horizontal",
+Drum_sw_HH,J3,"PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal",
+Drum_SW_SD,J2,"PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal",
+Drum_SW_BD,J1,"PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal",
+Teensy3.2,U10,Teensy30_31_32_LC,
+G5Q-1,K1,Relay_SPDT_Omron-G5Q-1,
+panel pots,J14,"PhoenixContact_MC_1,5_12-G-3.81_1x12_P3.81mm_Horizontal",

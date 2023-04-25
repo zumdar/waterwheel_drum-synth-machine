@@ -1,0 +1,2241 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:4017 U?
+U 1 1 6350D3B7
+P 3650 1500
+F 0 "U?" H 3700 2150 50  0000 C CNN
+F 1 "4017" H 3450 2150 50  0000 C CNN
+F 2 "" H 3650 1500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 3650 1500 50  0001 C CNN
+	1    3650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 6351187E
+P 1050 1450
+F 0 "J?" H 968 1125 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 968 1216 50  0000 C CNN
+F 2 "" H 1050 1450 50  0001 C CNN
+F 3 "~" H 1050 1450 50  0001 C CNN
+	1    1050 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6351230F
+P 1250 1350
+F 0 "#PWR?" H 1250 1200 50  0001 C CNN
+F 1 "+5V" H 1265 1523 50  0000 C CNN
+F 2 "" H 1250 1350 50  0001 C CNN
+F 3 "" H 1250 1350 50  0001 C CNN
+	1    1250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63512A54
+P 1250 1450
+F 0 "#PWR?" H 1250 1200 50  0001 C CNN
+F 1 "GND" H 1255 1277 50  0000 C CNN
+F 2 "" H 1250 1450 50  0001 C CNN
+F 3 "" H 1250 1450 50  0001 C CNN
+	1    1250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 63513005
+P 1050 2150
+F 0 "J?" H 968 1825 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 968 1916 50  0000 C CNN
+F 2 "" H 1050 2150 50  0001 C CNN
+F 3 "~" H 1050 2150 50  0001 C CNN
+	1    1050 2150
+	-1   0    0    1   
+$EndComp
+Text GLabel 1250 2050 2    50   Input ~ 0
+clock
+$Comp
+L power:GND #PWR?
+U 1 1 635136B7
+P 1250 2150
+F 0 "#PWR?" H 1250 1900 50  0001 C CNN
+F 1 "GND" H 1255 1977 50  0000 C CNN
+F 2 "" H 1250 2150 50  0001 C CNN
+F 3 "" H 1250 2150 50  0001 C CNN
+	1    1250 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3150 1000 0    50   Input ~ 0
+clock
+$Comp
+L power:GND #PWR?
+U 1 1 635149DD
+P 3150 1100
+F 0 "#PWR?" H 3150 850 50  0001 C CNN
+F 1 "GND" H 3000 1000 50  0000 C CNN
+F 2 "" H 3150 1100 50  0001 C CNN
+F 3 "" H 3150 1100 50  0001 C CNN
+	1    3150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 63515358
+P 3650 700
+F 0 "#PWR?" H 3650 550 50  0001 C CNN
+F 1 "+5V" H 3750 750 50  0000 C CNN
+F 2 "" H 3650 700 50  0001 C CNN
+F 3 "" H 3650 700 50  0001 C CNN
+	1    3650 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63515926
+P 3650 2400
+F 0 "#PWR?" H 3650 2150 50  0001 C CNN
+F 1 "GND" H 3500 2350 50  0000 C CNN
+F 2 "" H 3650 2400 50  0001 C CNN
+F 3 "" H 3650 2400 50  0001 C CNN
+	1    3650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 63516B0D
+P 4900 1200
+F 0 "D?" H 5050 1150 50  0000 C CNN
+F 1 "1N4148" H 4650 1150 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 1025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1200 50  0001 C CNN
+	1    4900 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635176E8
+P 4900 1000
+F 0 "D?" H 5050 950 50  0000 C CNN
+F 1 "1N4148" H 4650 900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1000 50  0001 C CNN
+	1    4900 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 63517A4B
+P 4900 1100
+F 0 "D?" H 5050 1050 50  0000 C CNN
+F 1 "1N4148" H 4650 1050 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 925 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1100 50  0001 C CNN
+	1    4900 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6351BBE7
+P 4900 1300
+F 0 "D?" H 5050 1250 50  0000 C CNN
+F 1 "1N4148" H 4650 1250 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 1125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1300 50  0001 C CNN
+	1    4900 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6351C056
+P 4900 1400
+F 0 "D?" H 5050 1350 50  0000 C CNN
+F 1 "1N4148" H 4650 1350 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 1225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1400 50  0001 C CNN
+	1    4900 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6351C864
+P 4900 1500
+F 0 "D?" H 5050 1450 50  0000 C CNN
+F 1 "1N4148" H 4650 1450 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6351CCE4
+P 4900 1600
+F 0 "D?" H 5050 1550 50  0000 C CNN
+F 1 "1N4148" H 4650 1550 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 1425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1600 50  0001 C CNN
+	1    4900 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6351D264
+P 4900 1700
+F 0 "D?" H 5050 1650 50  0000 C CNN
+F 1 "1N4148" H 4650 1650 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 1700 50  0001 C CNN
+	1    4900 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 1800 4250 1800
+Wire Wire Line
+	4250 1800 4250 2500
+Wire Wire Line
+	4250 2500 3150 2500
+Wire Wire Line
+	3150 2500 3150 1300
+Wire Wire Line
+	4650 1000 4750 1000
+Wire Wire Line
+	4650 1100 4750 1100
+Wire Wire Line
+	4650 1200 4750 1200
+Wire Wire Line
+	4650 1300 4750 1300
+Wire Wire Line
+	4650 1400 4750 1400
+Wire Wire Line
+	4650 1500 4750 1500
+Wire Wire Line
+	4650 1600 4750 1600
+Wire Wire Line
+	4650 1700 4750 1700
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63522544
+P 5500 1000
+F 0 "SW?" H 5500 1100 50  0000 C CNN
+F 1 "SW_SPST" H 5750 1100 50  0000 C CNN
+F 2 "" H 5500 1000 50  0001 C CNN
+F 3 "~" H 5500 1000 50  0001 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1000 5050 1000
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63523F0A
+P 5500 1100
+F 0 "SW?" H 6100 1150 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1150 50  0000 C CNN
+F 2 "" H 5500 1100 50  0001 C CNN
+F 3 "~" H 5500 1100 50  0001 C CNN
+	1    5500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6352435A
+P 5500 1200
+F 0 "SW?" H 6100 1250 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1250 50  0000 C CNN
+F 2 "" H 5500 1200 50  0001 C CNN
+F 3 "~" H 5500 1200 50  0001 C CNN
+	1    5500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63524586
+P 5500 1300
+F 0 "SW?" H 6100 1350 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1350 50  0000 C CNN
+F 2 "" H 5500 1300 50  0001 C CNN
+F 3 "~" H 5500 1300 50  0001 C CNN
+	1    5500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63524726
+P 5500 1400
+F 0 "SW?" H 6100 1450 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1450 50  0000 C CNN
+F 2 "" H 5500 1400 50  0001 C CNN
+F 3 "~" H 5500 1400 50  0001 C CNN
+	1    5500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63524B32
+P 5500 1500
+F 0 "SW?" H 6100 1550 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1550 50  0000 C CNN
+F 2 "" H 5500 1500 50  0001 C CNN
+F 3 "~" H 5500 1500 50  0001 C CNN
+	1    5500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63524DD1
+P 5500 1600
+F 0 "SW?" H 6100 1650 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1650 50  0000 C CNN
+F 2 "" H 5500 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+	1    5500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635250C5
+P 5500 1700
+F 0 "SW?" H 6100 1750 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1750 50  0000 C CNN
+F 2 "" H 5500 1700 50  0001 C CNN
+F 3 "~" H 5500 1700 50  0001 C CNN
+	1    5500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1100 5050 1100
+Wire Wire Line
+	5050 1200 5300 1200
+Wire Wire Line
+	5050 1300 5300 1300
+Wire Wire Line
+	5050 1400 5300 1400
+Wire Wire Line
+	5050 1500 5300 1500
+Wire Wire Line
+	5050 1600 5300 1600
+Wire Wire Line
+	5050 1700 5300 1700
+Text GLabel 5700 1850 2    50   Input ~ 0
+BD_Trig
+Wire Wire Line
+	5700 1850 5700 1700
+Connection ~ 5700 1100
+Wire Wire Line
+	5700 1100 5700 1000
+Connection ~ 5700 1200
+Wire Wire Line
+	5700 1200 5700 1100
+Connection ~ 5700 1300
+Wire Wire Line
+	5700 1300 5700 1200
+Connection ~ 5700 1400
+Wire Wire Line
+	5700 1400 5700 1300
+Connection ~ 5700 1500
+Wire Wire Line
+	5700 1500 5700 1400
+Connection ~ 5700 1600
+Wire Wire Line
+	5700 1600 5700 1500
+Connection ~ 5700 1700
+Wire Wire Line
+	5700 1700 5700 1600
+Text GLabel 4150 1000 2    50   Input ~ 0
+1_1
+Text GLabel 4150 1100 2    50   Input ~ 0
+1_2
+Text GLabel 4150 1200 2    50   Input ~ 0
+1_3
+Text GLabel 4150 1300 2    50   Input ~ 0
+1_4
+Text GLabel 4150 1400 2    50   Input ~ 0
+1_5
+Text GLabel 4150 1500 2    50   Input ~ 0
+1_6
+Text GLabel 4150 1600 2    50   Input ~ 0
+1_7
+Text GLabel 4150 1700 2    50   Input ~ 0
+1_8
+Text GLabel 4650 1000 0    50   Input ~ 0
+1_1
+Text GLabel 4650 1100 0    50   Input ~ 0
+1_2
+Text GLabel 4650 1200 0    50   Input ~ 0
+1_3
+Text GLabel 4650 1300 0    50   Input ~ 0
+1_4
+Text GLabel 4650 1400 0    50   Input ~ 0
+1_5
+Text GLabel 4650 1500 0    50   Input ~ 0
+1_6
+Text GLabel 4650 1700 0    50   Input ~ 0
+1_8
+Text GLabel 4650 1600 0    50   Input ~ 0
+1_7
+Text GLabel 6450 1050 0    50   Input ~ 0
+1_1
+Text GLabel 6450 1150 0    50   Input ~ 0
+1_2
+Text GLabel 6450 1250 0    50   Input ~ 0
+1_3
+Text GLabel 6450 1350 0    50   Input ~ 0
+1_4
+Text GLabel 6450 1450 0    50   Input ~ 0
+1_5
+Text GLabel 6450 1550 0    50   Input ~ 0
+1_6
+Text GLabel 6450 1750 0    50   Input ~ 0
+1_8
+Text GLabel 6450 1650 0    50   Input ~ 0
+1_7
+$Comp
+L Device:R_Small_US R?
+U 1 1 6353D30B
+P 6750 1050
+F 0 "R?" V 6700 900 50  0000 C CNN
+F 1 "1k" V 6700 1200 50  0000 C CNN
+F 2 "" H 6750 1050 50  0001 C CNN
+F 3 "~" H 6750 1050 50  0001 C CNN
+	1    6750 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6353E3E5
+P 7200 1050
+F 0 "D?" H 7350 1000 50  0000 C CNN
+F 1 "LED" H 6950 1000 50  0000 C CNN
+F 2 "" H 7200 1050 50  0001 C CNN
+F 3 "~" H 7200 1050 50  0001 C CNN
+	1    7200 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1050 7050 1050
+Wire Wire Line
+	6650 1050 6450 1050
+$Comp
+L Device:R_Small_US R?
+U 1 1 6354149B
+P 6750 1150
+F 0 "R?" V 6700 1000 50  0000 C CNN
+F 1 "1k" V 6700 1300 50  0000 C CNN
+F 2 "" H 6750 1150 50  0001 C CNN
+F 3 "~" H 6750 1150 50  0001 C CNN
+	1    6750 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635414A1
+P 7200 1150
+F 0 "D?" H 7350 1100 50  0000 C CNN
+F 1 "LED" H 6950 1100 50  0000 C CNN
+F 2 "" H 7200 1150 50  0001 C CNN
+F 3 "~" H 7200 1150 50  0001 C CNN
+	1    7200 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1150 7050 1150
+Wire Wire Line
+	6650 1150 6450 1150
+$Comp
+L Device:R_Small_US R?
+U 1 1 63542708
+P 6750 1250
+F 0 "R?" V 6700 1100 50  0000 C CNN
+F 1 "1k" V 6700 1400 50  0000 C CNN
+F 2 "" H 6750 1250 50  0001 C CNN
+F 3 "~" H 6750 1250 50  0001 C CNN
+	1    6750 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6354270E
+P 7200 1250
+F 0 "D?" H 7350 1200 50  0000 C CNN
+F 1 "LED" H 6950 1200 50  0000 C CNN
+F 2 "" H 7200 1250 50  0001 C CNN
+F 3 "~" H 7200 1250 50  0001 C CNN
+	1    7200 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1250 7050 1250
+Wire Wire Line
+	6650 1250 6450 1250
+$Comp
+L Device:R_Small_US R?
+U 1 1 63542EFF
+P 6750 1350
+F 0 "R?" V 6700 1200 50  0000 C CNN
+F 1 "1k" V 6700 1500 50  0000 C CNN
+F 2 "" H 6750 1350 50  0001 C CNN
+F 3 "~" H 6750 1350 50  0001 C CNN
+	1    6750 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 63542F05
+P 7200 1350
+F 0 "D?" H 7350 1300 50  0000 C CNN
+F 1 "LED" H 6950 1300 50  0000 C CNN
+F 2 "" H 7200 1350 50  0001 C CNN
+F 3 "~" H 7200 1350 50  0001 C CNN
+	1    7200 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1350 7050 1350
+Wire Wire Line
+	6650 1350 6450 1350
+$Comp
+L Device:R_Small_US R?
+U 1 1 635438E3
+P 6750 1450
+F 0 "R?" V 6700 1300 50  0000 C CNN
+F 1 "1k" V 6700 1600 50  0000 C CNN
+F 2 "" H 6750 1450 50  0001 C CNN
+F 3 "~" H 6750 1450 50  0001 C CNN
+	1    6750 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635438E9
+P 7200 1450
+F 0 "D?" H 7350 1400 50  0000 C CNN
+F 1 "LED" H 6950 1400 50  0000 C CNN
+F 2 "" H 7200 1450 50  0001 C CNN
+F 3 "~" H 7200 1450 50  0001 C CNN
+	1    7200 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1450 7050 1450
+Wire Wire Line
+	6650 1450 6450 1450
+$Comp
+L Device:R_Small_US R?
+U 1 1 6354411B
+P 6750 1550
+F 0 "R?" V 6700 1400 50  0000 C CNN
+F 1 "1k" V 6700 1700 50  0000 C CNN
+F 2 "" H 6750 1550 50  0001 C CNN
+F 3 "~" H 6750 1550 50  0001 C CNN
+	1    6750 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 63544121
+P 7200 1550
+F 0 "D?" H 7350 1500 50  0000 C CNN
+F 1 "LED" H 6950 1500 50  0000 C CNN
+F 2 "" H 7200 1550 50  0001 C CNN
+F 3 "~" H 7200 1550 50  0001 C CNN
+	1    7200 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1550 7050 1550
+Wire Wire Line
+	6650 1550 6450 1550
+$Comp
+L Device:R_Small_US R?
+U 1 1 63544ACE
+P 6750 1650
+F 0 "R?" V 6700 1500 50  0000 C CNN
+F 1 "1k" V 6700 1800 50  0000 C CNN
+F 2 "" H 6750 1650 50  0001 C CNN
+F 3 "~" H 6750 1650 50  0001 C CNN
+	1    6750 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 63544AD4
+P 7200 1650
+F 0 "D?" H 7350 1600 50  0000 C CNN
+F 1 "LED" H 6950 1600 50  0000 C CNN
+F 2 "" H 7200 1650 50  0001 C CNN
+F 3 "~" H 7200 1650 50  0001 C CNN
+	1    7200 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1650 7050 1650
+Wire Wire Line
+	6650 1650 6450 1650
+$Comp
+L Device:R_Small_US R?
+U 1 1 6354569D
+P 6750 1750
+F 0 "R?" V 6700 1600 50  0000 C CNN
+F 1 "1k" V 6700 1900 50  0000 C CNN
+F 2 "" H 6750 1750 50  0001 C CNN
+F 3 "~" H 6750 1750 50  0001 C CNN
+	1    6750 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635456A3
+P 7200 1750
+F 0 "D?" H 7350 1700 50  0000 C CNN
+F 1 "LED" H 6950 1700 50  0000 C CNN
+F 2 "" H 7200 1750 50  0001 C CNN
+F 3 "~" H 7200 1750 50  0001 C CNN
+	1    7200 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1750 7050 1750
+Wire Wire Line
+	6650 1750 6450 1750
+$Comp
+L 4xxx:4017 U?
+U 1 1 6356F9DB
+P 2900 3150
+F 0 "U?" H 2950 3800 50  0000 C CNN
+F 1 "4017" H 2700 3800 50  0000 C CNN
+F 2 "" H 2900 3150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 2900 3150 50  0001 C CNN
+	1    2900 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 2650 0    50   Input ~ 0
+clock
+$Comp
+L power:GND #PWR?
+U 1 1 6356F9E2
+P 2400 2750
+F 0 "#PWR?" H 2400 2500 50  0001 C CNN
+F 1 "GND" H 2250 2650 50  0000 C CNN
+F 2 "" H 2400 2750 50  0001 C CNN
+F 3 "" H 2400 2750 50  0001 C CNN
+	1    2400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6356F9E8
+P 2900 2350
+F 0 "#PWR?" H 2900 2200 50  0001 C CNN
+F 1 "+5V" H 3000 2400 50  0000 C CNN
+F 2 "" H 2900 2350 50  0001 C CNN
+F 3 "" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6356F9EE
+P 2900 4050
+F 0 "#PWR?" H 2900 3800 50  0001 C CNN
+F 1 "GND" H 2750 4000 50  0000 C CNN
+F 2 "" H 2900 4050 50  0001 C CNN
+F 3 "" H 2900 4050 50  0001 C CNN
+	1    2900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356F9F4
+P 4150 2850
+F 0 "D?" H 4300 2800 50  0000 C CNN
+F 1 "1N4148" H 3900 2800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 2675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 2850 50  0001 C CNN
+	1    4150 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356F9FA
+P 4150 2650
+F 0 "D?" H 4300 2600 50  0000 C CNN
+F 1 "1N4148" H 3900 2550 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 2475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 2650 50  0001 C CNN
+	1    4150 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356FA00
+P 4150 2750
+F 0 "D?" H 4300 2700 50  0000 C CNN
+F 1 "1N4148" H 3900 2700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 2575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 2750 50  0001 C CNN
+	1    4150 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356FA06
+P 4150 2950
+F 0 "D?" H 4300 2900 50  0000 C CNN
+F 1 "1N4148" H 3900 2900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 2775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 2950 50  0001 C CNN
+	1    4150 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356FA0C
+P 4150 3050
+F 0 "D?" H 4300 3000 50  0000 C CNN
+F 1 "1N4148" H 3900 3000 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 2875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356FA12
+P 4150 3150
+F 0 "D?" H 4300 3100 50  0000 C CNN
+F 1 "1N4148" H 3900 3100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 3150 50  0001 C CNN
+	1    4150 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356FA18
+P 4150 3250
+F 0 "D?" H 4300 3200 50  0000 C CNN
+F 1 "1N4148" H 3900 3200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 3075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6356FA1E
+P 4150 3350
+F 0 "D?" H 4300 3300 50  0000 C CNN
+F 1 "1N4148" H 3900 3300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 3175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 3350 50  0001 C CNN
+	1    4150 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 4150 2400 4150
+Wire Wire Line
+	2400 4150 2400 2950
+Wire Wire Line
+	3900 2650 4000 2650
+Wire Wire Line
+	3900 2750 4000 2750
+Wire Wire Line
+	3900 2850 4000 2850
+Wire Wire Line
+	3900 2950 4000 2950
+Wire Wire Line
+	3900 3050 4000 3050
+Wire Wire Line
+	3900 3150 4000 3150
+Wire Wire Line
+	3900 3250 4000 3250
+Wire Wire Line
+	3900 3350 4000 3350
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA30
+P 4750 2650
+F 0 "SW?" H 4750 2750 50  0000 C CNN
+F 1 "SW_SPST" H 5000 2750 50  0000 C CNN
+F 2 "" H 4750 2650 50  0001 C CNN
+F 3 "~" H 4750 2650 50  0001 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2650 4300 2650
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA37
+P 4750 2750
+F 0 "SW?" H 5350 2800 50  0000 C CNN
+F 1 "SW_SPST" H 5100 2800 50  0000 C CNN
+F 2 "" H 4750 2750 50  0001 C CNN
+F 3 "~" H 4750 2750 50  0001 C CNN
+	1    4750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA3D
+P 4750 2850
+F 0 "SW?" H 5350 2900 50  0000 C CNN
+F 1 "SW_SPST" H 5100 2900 50  0000 C CNN
+F 2 "" H 4750 2850 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA43
+P 4750 2950
+F 0 "SW?" H 5350 3000 50  0000 C CNN
+F 1 "SW_SPST" H 5100 3000 50  0000 C CNN
+F 2 "" H 4750 2950 50  0001 C CNN
+F 3 "~" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA49
+P 4750 3050
+F 0 "SW?" H 5350 3100 50  0000 C CNN
+F 1 "SW_SPST" H 5100 3100 50  0000 C CNN
+F 2 "" H 4750 3050 50  0001 C CNN
+F 3 "~" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA4F
+P 4750 3150
+F 0 "SW?" H 5350 3200 50  0000 C CNN
+F 1 "SW_SPST" H 5100 3200 50  0000 C CNN
+F 2 "" H 4750 3150 50  0001 C CNN
+F 3 "~" H 4750 3150 50  0001 C CNN
+	1    4750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA55
+P 4750 3250
+F 0 "SW?" H 5350 3300 50  0000 C CNN
+F 1 "SW_SPST" H 5100 3300 50  0000 C CNN
+F 2 "" H 4750 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6356FA5B
+P 4750 3350
+F 0 "SW?" H 5350 3400 50  0000 C CNN
+F 1 "SW_SPST" H 5100 3400 50  0000 C CNN
+F 2 "" H 4750 3350 50  0001 C CNN
+F 3 "~" H 4750 3350 50  0001 C CNN
+	1    4750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2750 4300 2750
+Wire Wire Line
+	4300 2850 4550 2850
+Wire Wire Line
+	4300 2950 4550 2950
+Wire Wire Line
+	4300 3050 4550 3050
+Wire Wire Line
+	4300 3150 4550 3150
+Wire Wire Line
+	4300 3250 4550 3250
+Wire Wire Line
+	4300 3350 4550 3350
+Text GLabel 4950 3500 2    50   Input ~ 0
+SD_trig
+Wire Wire Line
+	4950 3500 4950 3350
+Connection ~ 4950 2750
+Wire Wire Line
+	4950 2750 4950 2650
+Connection ~ 4950 2850
+Wire Wire Line
+	4950 2850 4950 2750
+Connection ~ 4950 2950
+Wire Wire Line
+	4950 2950 4950 2850
+Connection ~ 4950 3050
+Wire Wire Line
+	4950 3050 4950 2950
+Connection ~ 4950 3150
+Wire Wire Line
+	4950 3150 4950 3050
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 3250 4950 3150
+Connection ~ 4950 3350
+Wire Wire Line
+	4950 3350 4950 3250
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FA90
+P 6000 2700
+F 0 "R?" V 5950 2550 50  0000 C CNN
+F 1 "1k" V 5950 2850 50  0000 C CNN
+F 2 "" H 6000 2700 50  0001 C CNN
+F 3 "~" H 6000 2700 50  0001 C CNN
+	1    6000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FA96
+P 6450 2700
+F 0 "D?" H 6600 2650 50  0000 C CNN
+F 1 "LED" H 6200 2650 50  0000 C CNN
+F 2 "" H 6450 2700 50  0001 C CNN
+F 3 "~" H 6450 2700 50  0001 C CNN
+	1    6450 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2700 6300 2700
+Wire Wire Line
+	5900 2700 5700 2700
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FA9E
+P 6000 2800
+F 0 "R?" V 5950 2650 50  0000 C CNN
+F 1 "1k" V 5950 2950 50  0000 C CNN
+F 2 "" H 6000 2800 50  0001 C CNN
+F 3 "~" H 6000 2800 50  0001 C CNN
+	1    6000 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FAA4
+P 6450 2800
+F 0 "D?" H 6600 2750 50  0000 C CNN
+F 1 "LED" H 6200 2750 50  0000 C CNN
+F 2 "" H 6450 2800 50  0001 C CNN
+F 3 "~" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2800 6300 2800
+Wire Wire Line
+	5900 2800 5700 2800
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FAAC
+P 6000 2900
+F 0 "R?" V 5950 2750 50  0000 C CNN
+F 1 "1k" V 5950 3050 50  0000 C CNN
+F 2 "" H 6000 2900 50  0001 C CNN
+F 3 "~" H 6000 2900 50  0001 C CNN
+	1    6000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FAB2
+P 6450 2900
+F 0 "D?" H 6600 2850 50  0000 C CNN
+F 1 "LED" H 6200 2850 50  0000 C CNN
+F 2 "" H 6450 2900 50  0001 C CNN
+F 3 "~" H 6450 2900 50  0001 C CNN
+	1    6450 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2900 6300 2900
+Wire Wire Line
+	5900 2900 5700 2900
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FABA
+P 6000 3000
+F 0 "R?" V 5950 2850 50  0000 C CNN
+F 1 "1k" V 5950 3150 50  0000 C CNN
+F 2 "" H 6000 3000 50  0001 C CNN
+F 3 "~" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FAC0
+P 6450 3000
+F 0 "D?" H 6600 2950 50  0000 C CNN
+F 1 "LED" H 6200 2950 50  0000 C CNN
+F 2 "" H 6450 3000 50  0001 C CNN
+F 3 "~" H 6450 3000 50  0001 C CNN
+	1    6450 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3000 6300 3000
+Wire Wire Line
+	5900 3000 5700 3000
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FAC8
+P 6000 3100
+F 0 "R?" V 5950 2950 50  0000 C CNN
+F 1 "1k" V 5950 3250 50  0000 C CNN
+F 2 "" H 6000 3100 50  0001 C CNN
+F 3 "~" H 6000 3100 50  0001 C CNN
+	1    6000 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FACE
+P 6450 3100
+F 0 "D?" H 6600 3050 50  0000 C CNN
+F 1 "LED" H 6200 3050 50  0000 C CNN
+F 2 "" H 6450 3100 50  0001 C CNN
+F 3 "~" H 6450 3100 50  0001 C CNN
+	1    6450 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3100 6300 3100
+Wire Wire Line
+	5900 3100 5700 3100
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FAD6
+P 6000 3200
+F 0 "R?" V 5950 3050 50  0000 C CNN
+F 1 "1k" V 5950 3350 50  0000 C CNN
+F 2 "" H 6000 3200 50  0001 C CNN
+F 3 "~" H 6000 3200 50  0001 C CNN
+	1    6000 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FADC
+P 6450 3200
+F 0 "D?" H 6600 3150 50  0000 C CNN
+F 1 "LED" H 6200 3150 50  0000 C CNN
+F 2 "" H 6450 3200 50  0001 C CNN
+F 3 "~" H 6450 3200 50  0001 C CNN
+	1    6450 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3200 6300 3200
+Wire Wire Line
+	5900 3200 5700 3200
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FAE4
+P 6000 3300
+F 0 "R?" V 5950 3150 50  0000 C CNN
+F 1 "1k" V 5950 3450 50  0000 C CNN
+F 2 "" H 6000 3300 50  0001 C CNN
+F 3 "~" H 6000 3300 50  0001 C CNN
+	1    6000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FAEA
+P 6450 3300
+F 0 "D?" H 6600 3250 50  0000 C CNN
+F 1 "LED" H 6200 3250 50  0000 C CNN
+F 2 "" H 6450 3300 50  0001 C CNN
+F 3 "~" H 6450 3300 50  0001 C CNN
+	1    6450 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3300 6300 3300
+Wire Wire Line
+	5900 3300 5700 3300
+$Comp
+L Device:R_Small_US R?
+U 1 1 6356FAF2
+P 6000 3400
+F 0 "R?" V 5950 3250 50  0000 C CNN
+F 1 "1k" V 5950 3550 50  0000 C CNN
+F 2 "" H 6000 3400 50  0001 C CNN
+F 3 "~" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6356FAF8
+P 6450 3400
+F 0 "D?" H 6600 3350 50  0000 C CNN
+F 1 "LED" H 6200 3350 50  0000 C CNN
+F 2 "" H 6450 3400 50  0001 C CNN
+F 3 "~" H 6450 3400 50  0001 C CNN
+	1    6450 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3400 6300 3400
+Wire Wire Line
+	5900 3400 5700 3400
+$Comp
+L 4xxx:4017 U?
+U 1 1 6359D2BA
+P 2200 4850
+F 0 "U?" H 2250 5500 50  0000 C CNN
+F 1 "4017" H 2000 5500 50  0000 C CNN
+F 2 "" H 2200 4850 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 2200 4850 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 4350 0    50   Input ~ 0
+clock
+$Comp
+L power:GND #PWR?
+U 1 1 6359D2C1
+P 1700 4450
+F 0 "#PWR?" H 1700 4200 50  0001 C CNN
+F 1 "GND" H 1550 4350 50  0000 C CNN
+F 2 "" H 1700 4450 50  0001 C CNN
+F 3 "" H 1700 4450 50  0001 C CNN
+	1    1700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6359D2C7
+P 2200 4050
+F 0 "#PWR?" H 2200 3900 50  0001 C CNN
+F 1 "+5V" H 2300 4100 50  0000 C CNN
+F 2 "" H 2200 4050 50  0001 C CNN
+F 3 "" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6359D2CD
+P 2200 5750
+F 0 "#PWR?" H 2200 5500 50  0001 C CNN
+F 1 "GND" H 2050 5700 50  0000 C CNN
+F 2 "" H 2200 5750 50  0001 C CNN
+F 3 "" H 2200 5750 50  0001 C CNN
+	1    2200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2D3
+P 3450 4550
+F 0 "D?" H 3600 4500 50  0000 C CNN
+F 1 "1N4148" H 3200 4500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 4550 50  0001 C CNN
+	1    3450 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2D9
+P 3450 4350
+F 0 "D?" H 3600 4300 50  0000 C CNN
+F 1 "1N4148" H 3200 4250 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 4350 50  0001 C CNN
+	1    3450 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2DF
+P 3450 4450
+F 0 "D?" H 3600 4400 50  0000 C CNN
+F 1 "1N4148" H 3200 4400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 4450 50  0001 C CNN
+	1    3450 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2E5
+P 3450 4650
+F 0 "D?" H 3600 4600 50  0000 C CNN
+F 1 "1N4148" H 3200 4600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 4650 50  0001 C CNN
+	1    3450 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2EB
+P 3450 4750
+F 0 "D?" H 3600 4700 50  0000 C CNN
+F 1 "1N4148" H 3200 4700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 4750 50  0001 C CNN
+	1    3450 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2F1
+P 3450 4850
+F 0 "D?" H 3600 4800 50  0000 C CNN
+F 1 "1N4148" H 3200 4800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 4850 50  0001 C CNN
+	1    3450 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2F7
+P 3450 4950
+F 0 "D?" H 3600 4900 50  0000 C CNN
+F 1 "1N4148" H 3200 4900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 4950 50  0001 C CNN
+	1    3450 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6359D2FD
+P 3450 5050
+F 0 "D?" H 3600 5000 50  0000 C CNN
+F 1 "1N4148" H 3200 5000 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 5050 50  0001 C CNN
+	1    3450 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 5850 1700 5850
+Wire Wire Line
+	1700 5850 1700 4650
+Wire Wire Line
+	3200 4350 3300 4350
+Wire Wire Line
+	3200 4450 3300 4450
+Wire Wire Line
+	3200 4550 3300 4550
+Wire Wire Line
+	3200 4650 3300 4650
+Wire Wire Line
+	3200 4750 3300 4750
+Wire Wire Line
+	3200 4850 3300 4850
+Wire Wire Line
+	3200 4950 3300 4950
+Wire Wire Line
+	3200 5050 3300 5050
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D30F
+P 4050 4350
+F 0 "SW?" H 4050 4450 50  0000 C CNN
+F 1 "SW_SPST" H 4300 4450 50  0000 C CNN
+F 2 "" H 4050 4350 50  0001 C CNN
+F 3 "~" H 4050 4350 50  0001 C CNN
+	1    4050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4350 3600 4350
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D316
+P 4050 4450
+F 0 "SW?" H 4650 4500 50  0000 C CNN
+F 1 "SW_SPST" H 4400 4500 50  0000 C CNN
+F 2 "" H 4050 4450 50  0001 C CNN
+F 3 "~" H 4050 4450 50  0001 C CNN
+	1    4050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D31C
+P 4050 4550
+F 0 "SW?" H 4650 4600 50  0000 C CNN
+F 1 "SW_SPST" H 4400 4600 50  0000 C CNN
+F 2 "" H 4050 4550 50  0001 C CNN
+F 3 "~" H 4050 4550 50  0001 C CNN
+	1    4050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D322
+P 4050 4650
+F 0 "SW?" H 4650 4700 50  0000 C CNN
+F 1 "SW_SPST" H 4400 4700 50  0000 C CNN
+F 2 "" H 4050 4650 50  0001 C CNN
+F 3 "~" H 4050 4650 50  0001 C CNN
+	1    4050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D328
+P 4050 4750
+F 0 "SW?" H 4650 4800 50  0000 C CNN
+F 1 "SW_SPST" H 4400 4800 50  0000 C CNN
+F 2 "" H 4050 4750 50  0001 C CNN
+F 3 "~" H 4050 4750 50  0001 C CNN
+	1    4050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D32E
+P 4050 4850
+F 0 "SW?" H 4650 4900 50  0000 C CNN
+F 1 "SW_SPST" H 4400 4900 50  0000 C CNN
+F 2 "" H 4050 4850 50  0001 C CNN
+F 3 "~" H 4050 4850 50  0001 C CNN
+	1    4050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D334
+P 4050 4950
+F 0 "SW?" H 4650 5000 50  0000 C CNN
+F 1 "SW_SPST" H 4400 5000 50  0000 C CNN
+F 2 "" H 4050 4950 50  0001 C CNN
+F 3 "~" H 4050 4950 50  0001 C CNN
+	1    4050 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6359D33A
+P 4050 5050
+F 0 "SW?" H 4650 5100 50  0000 C CNN
+F 1 "SW_SPST" H 4400 5100 50  0000 C CNN
+F 2 "" H 4050 5050 50  0001 C CNN
+F 3 "~" H 4050 5050 50  0001 C CNN
+	1    4050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4450 3600 4450
+Wire Wire Line
+	3600 4550 3850 4550
+Wire Wire Line
+	3600 4650 3850 4650
+Wire Wire Line
+	3600 4750 3850 4750
+Wire Wire Line
+	3600 4850 3850 4850
+Wire Wire Line
+	3600 4950 3850 4950
+Wire Wire Line
+	3600 5050 3850 5050
+Text GLabel 4250 5200 2    50   Input ~ 0
+HH_Trig
+Wire Wire Line
+	4250 5200 4250 5050
+Connection ~ 4250 4450
+Wire Wire Line
+	4250 4450 4250 4350
+Connection ~ 4250 4550
+Wire Wire Line
+	4250 4550 4250 4450
+Connection ~ 4250 4650
+Wire Wire Line
+	4250 4650 4250 4550
+Connection ~ 4250 4750
+Wire Wire Line
+	4250 4750 4250 4650
+Connection ~ 4250 4850
+Wire Wire Line
+	4250 4850 4250 4750
+Connection ~ 4250 4950
+Wire Wire Line
+	4250 4950 4250 4850
+Connection ~ 4250 5050
+Wire Wire Line
+	4250 5050 4250 4950
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D36F
+P 5300 4400
+F 0 "R?" V 5250 4250 50  0000 C CNN
+F 1 "1k" V 5250 4550 50  0000 C CNN
+F 2 "" H 5300 4400 50  0001 C CNN
+F 3 "~" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D375
+P 5750 4400
+F 0 "D?" H 5900 4350 50  0000 C CNN
+F 1 "LED" H 5500 4350 50  0000 C CNN
+F 2 "" H 5750 4400 50  0001 C CNN
+F 3 "~" H 5750 4400 50  0001 C CNN
+	1    5750 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4400 5600 4400
+Wire Wire Line
+	5200 4400 5000 4400
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D37D
+P 5300 4500
+F 0 "R?" V 5250 4350 50  0000 C CNN
+F 1 "1k" V 5250 4650 50  0000 C CNN
+F 2 "" H 5300 4500 50  0001 C CNN
+F 3 "~" H 5300 4500 50  0001 C CNN
+	1    5300 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D383
+P 5750 4500
+F 0 "D?" H 5900 4450 50  0000 C CNN
+F 1 "LED" H 5500 4450 50  0000 C CNN
+F 2 "" H 5750 4500 50  0001 C CNN
+F 3 "~" H 5750 4500 50  0001 C CNN
+	1    5750 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4500 5600 4500
+Wire Wire Line
+	5200 4500 5000 4500
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D38B
+P 5300 4600
+F 0 "R?" V 5250 4450 50  0000 C CNN
+F 1 "1k" V 5250 4750 50  0000 C CNN
+F 2 "" H 5300 4600 50  0001 C CNN
+F 3 "~" H 5300 4600 50  0001 C CNN
+	1    5300 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D391
+P 5750 4600
+F 0 "D?" H 5900 4550 50  0000 C CNN
+F 1 "LED" H 5500 4550 50  0000 C CNN
+F 2 "" H 5750 4600 50  0001 C CNN
+F 3 "~" H 5750 4600 50  0001 C CNN
+	1    5750 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4600 5600 4600
+Wire Wire Line
+	5200 4600 5000 4600
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D399
+P 5300 4700
+F 0 "R?" V 5250 4550 50  0000 C CNN
+F 1 "1k" V 5250 4850 50  0000 C CNN
+F 2 "" H 5300 4700 50  0001 C CNN
+F 3 "~" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D39F
+P 5750 4700
+F 0 "D?" H 5900 4650 50  0000 C CNN
+F 1 "LED" H 5500 4650 50  0000 C CNN
+F 2 "" H 5750 4700 50  0001 C CNN
+F 3 "~" H 5750 4700 50  0001 C CNN
+	1    5750 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4700 5600 4700
+Wire Wire Line
+	5200 4700 5000 4700
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D3A7
+P 5300 4800
+F 0 "R?" V 5250 4650 50  0000 C CNN
+F 1 "1k" V 5250 4950 50  0000 C CNN
+F 2 "" H 5300 4800 50  0001 C CNN
+F 3 "~" H 5300 4800 50  0001 C CNN
+	1    5300 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D3AD
+P 5750 4800
+F 0 "D?" H 5900 4750 50  0000 C CNN
+F 1 "LED" H 5500 4750 50  0000 C CNN
+F 2 "" H 5750 4800 50  0001 C CNN
+F 3 "~" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4800 5600 4800
+Wire Wire Line
+	5200 4800 5000 4800
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D3B5
+P 5300 4900
+F 0 "R?" V 5250 4750 50  0000 C CNN
+F 1 "1k" V 5250 5050 50  0000 C CNN
+F 2 "" H 5300 4900 50  0001 C CNN
+F 3 "~" H 5300 4900 50  0001 C CNN
+	1    5300 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D3BB
+P 5750 4900
+F 0 "D?" H 5900 4850 50  0000 C CNN
+F 1 "LED" H 5500 4850 50  0000 C CNN
+F 2 "" H 5750 4900 50  0001 C CNN
+F 3 "~" H 5750 4900 50  0001 C CNN
+	1    5750 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4900 5600 4900
+Wire Wire Line
+	5200 4900 5000 4900
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D3C3
+P 5300 5000
+F 0 "R?" V 5250 4850 50  0000 C CNN
+F 1 "1k" V 5250 5150 50  0000 C CNN
+F 2 "" H 5300 5000 50  0001 C CNN
+F 3 "~" H 5300 5000 50  0001 C CNN
+	1    5300 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D3C9
+P 5750 5000
+F 0 "D?" H 5900 4950 50  0000 C CNN
+F 1 "LED" H 5500 4950 50  0000 C CNN
+F 2 "" H 5750 5000 50  0001 C CNN
+F 3 "~" H 5750 5000 50  0001 C CNN
+	1    5750 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5000 5600 5000
+Wire Wire Line
+	5200 5000 5000 5000
+$Comp
+L Device:R_Small_US R?
+U 1 1 6359D3D1
+P 5300 5100
+F 0 "R?" V 5250 4950 50  0000 C CNN
+F 1 "1k" V 5250 5250 50  0000 C CNN
+F 2 "" H 5300 5100 50  0001 C CNN
+F 3 "~" H 5300 5100 50  0001 C CNN
+	1    5300 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6359D3D7
+P 5750 5100
+F 0 "D?" H 5900 5050 50  0000 C CNN
+F 1 "LED" H 5500 5050 50  0000 C CNN
+F 2 "" H 5750 5100 50  0001 C CNN
+F 3 "~" H 5750 5100 50  0001 C CNN
+	1    5750 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5100 5600 5100
+Wire Wire Line
+	5200 5100 5000 5100
+$Comp
+L 4xxx:4017 U?
+U 1 1 635C22EF
+P 1400 6500
+F 0 "U?" H 1450 7150 50  0000 C CNN
+F 1 "4017" H 1200 7150 50  0000 C CNN
+F 2 "" H 1400 6500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 1400 6500 50  0001 C CNN
+	1    1400 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 900  6000 0    50   Input ~ 0
+clock
+$Comp
+L power:GND #PWR?
+U 1 1 635C22F6
+P 900 6100
+F 0 "#PWR?" H 900 5850 50  0001 C CNN
+F 1 "GND" H 750 6000 50  0000 C CNN
+F 2 "" H 900 6100 50  0001 C CNN
+F 3 "" H 900 6100 50  0001 C CNN
+	1    900  6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 635C22FC
+P 1400 5700
+F 0 "#PWR?" H 1400 5550 50  0001 C CNN
+F 1 "+5V" H 1500 5750 50  0000 C CNN
+F 2 "" H 1400 5700 50  0001 C CNN
+F 3 "" H 1400 5700 50  0001 C CNN
+	1    1400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 635C2302
+P 1400 7400
+F 0 "#PWR?" H 1400 7150 50  0001 C CNN
+F 1 "GND" H 1250 7350 50  0000 C CNN
+F 2 "" H 1400 7400 50  0001 C CNN
+F 3 "" H 1400 7400 50  0001 C CNN
+	1    1400 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C2308
+P 2650 6200
+F 0 "D?" H 2800 6150 50  0000 C CNN
+F 1 "1N4148" H 2400 6150 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6200 50  0001 C CNN
+	1    2650 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C230E
+P 2650 6000
+F 0 "D?" H 2800 5950 50  0000 C CNN
+F 1 "1N4148" H 2400 5900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 5825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6000 50  0001 C CNN
+	1    2650 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C2314
+P 2650 6100
+F 0 "D?" H 2800 6050 50  0000 C CNN
+F 1 "1N4148" H 2400 6050 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 5925 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6100 50  0001 C CNN
+	1    2650 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C231A
+P 2650 6300
+F 0 "D?" H 2800 6250 50  0000 C CNN
+F 1 "1N4148" H 2400 6250 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6300 50  0001 C CNN
+	1    2650 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C2320
+P 2650 6400
+F 0 "D?" H 2800 6350 50  0000 C CNN
+F 1 "1N4148" H 2400 6350 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6400 50  0001 C CNN
+	1    2650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C2326
+P 2650 6500
+F 0 "D?" H 2800 6450 50  0000 C CNN
+F 1 "1N4148" H 2400 6450 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6500 50  0001 C CNN
+	1    2650 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C232C
+P 2650 6600
+F 0 "D?" H 2800 6550 50  0000 C CNN
+F 1 "1N4148" H 2400 6550 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6600 50  0001 C CNN
+	1    2650 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 635C2332
+P 2650 6700
+F 0 "D?" H 2800 6650 50  0000 C CNN
+F 1 "1N4148" H 2400 6650 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6700 50  0001 C CNN
+	1    2650 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 6800 2000 6800
+Wire Wire Line
+	2000 6800 2000 7500
+Wire Wire Line
+	2000 7500 900  7500
+Wire Wire Line
+	900  7500 900  6300
+Wire Wire Line
+	2400 6000 2500 6000
+Wire Wire Line
+	2400 6100 2500 6100
+Wire Wire Line
+	2400 6200 2500 6200
+Wire Wire Line
+	2400 6300 2500 6300
+Wire Wire Line
+	2400 6400 2500 6400
+Wire Wire Line
+	2400 6500 2500 6500
+Wire Wire Line
+	2400 6600 2500 6600
+Wire Wire Line
+	2400 6700 2500 6700
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C2344
+P 3250 6000
+F 0 "SW?" H 3250 6100 50  0000 C CNN
+F 1 "SW_SPST" H 3500 6100 50  0000 C CNN
+F 2 "" H 3250 6000 50  0001 C CNN
+F 3 "~" H 3250 6000 50  0001 C CNN
+	1    3250 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6000 2800 6000
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C234B
+P 3250 6100
+F 0 "SW?" H 3850 6150 50  0000 C CNN
+F 1 "SW_SPST" H 3600 6150 50  0000 C CNN
+F 2 "" H 3250 6100 50  0001 C CNN
+F 3 "~" H 3250 6100 50  0001 C CNN
+	1    3250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C2351
+P 3250 6200
+F 0 "SW?" H 3850 6250 50  0000 C CNN
+F 1 "SW_SPST" H 3600 6250 50  0000 C CNN
+F 2 "" H 3250 6200 50  0001 C CNN
+F 3 "~" H 3250 6200 50  0001 C CNN
+	1    3250 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C2357
+P 3250 6300
+F 0 "SW?" H 3850 6350 50  0000 C CNN
+F 1 "SW_SPST" H 3600 6350 50  0000 C CNN
+F 2 "" H 3250 6300 50  0001 C CNN
+F 3 "~" H 3250 6300 50  0001 C CNN
+	1    3250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C235D
+P 3250 6400
+F 0 "SW?" H 3850 6450 50  0000 C CNN
+F 1 "SW_SPST" H 3600 6450 50  0000 C CNN
+F 2 "" H 3250 6400 50  0001 C CNN
+F 3 "~" H 3250 6400 50  0001 C CNN
+	1    3250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C2363
+P 3250 6500
+F 0 "SW?" H 3850 6550 50  0000 C CNN
+F 1 "SW_SPST" H 3600 6550 50  0000 C CNN
+F 2 "" H 3250 6500 50  0001 C CNN
+F 3 "~" H 3250 6500 50  0001 C CNN
+	1    3250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C2369
+P 3250 6600
+F 0 "SW?" H 3850 6650 50  0000 C CNN
+F 1 "SW_SPST" H 3600 6650 50  0000 C CNN
+F 2 "" H 3250 6600 50  0001 C CNN
+F 3 "~" H 3250 6600 50  0001 C CNN
+	1    3250 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 635C236F
+P 3250 6700
+F 0 "SW?" H 3850 6750 50  0000 C CNN
+F 1 "SW_SPST" H 3600 6750 50  0000 C CNN
+F 2 "" H 3250 6700 50  0001 C CNN
+F 3 "~" H 3250 6700 50  0001 C CNN
+	1    3250 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6100 2800 6100
+Wire Wire Line
+	2800 6200 3050 6200
+Wire Wire Line
+	2800 6300 3050 6300
+Wire Wire Line
+	2800 6400 3050 6400
+Wire Wire Line
+	2800 6500 3050 6500
+Wire Wire Line
+	2800 6600 3050 6600
+Wire Wire Line
+	2800 6700 3050 6700
+Text GLabel 3450 6850 2    50   Input ~ 0
+TT_Trig
+Wire Wire Line
+	3450 6850 3450 6700
+Connection ~ 3450 6100
+Wire Wire Line
+	3450 6100 3450 6000
+Connection ~ 3450 6200
+Wire Wire Line
+	3450 6200 3450 6100
+Connection ~ 3450 6300
+Wire Wire Line
+	3450 6300 3450 6200
+Connection ~ 3450 6400
+Wire Wire Line
+	3450 6400 3450 6300
+Connection ~ 3450 6500
+Wire Wire Line
+	3450 6500 3450 6400
+Connection ~ 3450 6600
+Wire Wire Line
+	3450 6600 3450 6500
+Connection ~ 3450 6700
+Wire Wire Line
+	3450 6700 3450 6600
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C23A4
+P 4500 6050
+F 0 "R?" V 4450 5900 50  0000 C CNN
+F 1 "1k" V 4450 6200 50  0000 C CNN
+F 2 "" H 4500 6050 50  0001 C CNN
+F 3 "~" H 4500 6050 50  0001 C CNN
+	1    4500 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C23AA
+P 4950 6050
+F 0 "D?" H 5100 6000 50  0000 C CNN
+F 1 "LED" H 4700 6000 50  0000 C CNN
+F 2 "" H 4950 6050 50  0001 C CNN
+F 3 "~" H 4950 6050 50  0001 C CNN
+	1    4950 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6050 4800 6050
+Wire Wire Line
+	4400 6050 4200 6050
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C23B2
+P 4500 6150
+F 0 "R?" V 4450 6000 50  0000 C CNN
+F 1 "1k" V 4450 6300 50  0000 C CNN
+F 2 "" H 4500 6150 50  0001 C CNN
+F 3 "~" H 4500 6150 50  0001 C CNN
+	1    4500 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C23B8
+P 4950 6150
+F 0 "D?" H 5100 6100 50  0000 C CNN
+F 1 "LED" H 4700 6100 50  0000 C CNN
+F 2 "" H 4950 6150 50  0001 C CNN
+F 3 "~" H 4950 6150 50  0001 C CNN
+	1    4950 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6150 4800 6150
+Wire Wire Line
+	4400 6150 4200 6150
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C23C0
+P 4500 6250
+F 0 "R?" V 4450 6100 50  0000 C CNN
+F 1 "1k" V 4450 6400 50  0000 C CNN
+F 2 "" H 4500 6250 50  0001 C CNN
+F 3 "~" H 4500 6250 50  0001 C CNN
+	1    4500 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C23C6
+P 4950 6250
+F 0 "D?" H 5100 6200 50  0000 C CNN
+F 1 "LED" H 4700 6200 50  0000 C CNN
+F 2 "" H 4950 6250 50  0001 C CNN
+F 3 "~" H 4950 6250 50  0001 C CNN
+	1    4950 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6250 4800 6250
+Wire Wire Line
+	4400 6250 4200 6250
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C23CE
+P 4500 6350
+F 0 "R?" V 4450 6200 50  0000 C CNN
+F 1 "1k" V 4450 6500 50  0000 C CNN
+F 2 "" H 4500 6350 50  0001 C CNN
+F 3 "~" H 4500 6350 50  0001 C CNN
+	1    4500 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C23D4
+P 4950 6350
+F 0 "D?" H 5100 6300 50  0000 C CNN
+F 1 "LED" H 4700 6300 50  0000 C CNN
+F 2 "" H 4950 6350 50  0001 C CNN
+F 3 "~" H 4950 6350 50  0001 C CNN
+	1    4950 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6350 4800 6350
+Wire Wire Line
+	4400 6350 4200 6350
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C23DC
+P 4500 6450
+F 0 "R?" V 4450 6300 50  0000 C CNN
+F 1 "1k" V 4450 6600 50  0000 C CNN
+F 2 "" H 4500 6450 50  0001 C CNN
+F 3 "~" H 4500 6450 50  0001 C CNN
+	1    4500 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C23E2
+P 4950 6450
+F 0 "D?" H 5100 6400 50  0000 C CNN
+F 1 "LED" H 4700 6400 50  0000 C CNN
+F 2 "" H 4950 6450 50  0001 C CNN
+F 3 "~" H 4950 6450 50  0001 C CNN
+	1    4950 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6450 4800 6450
+Wire Wire Line
+	4400 6450 4200 6450
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C23EA
+P 4500 6550
+F 0 "R?" V 4450 6400 50  0000 C CNN
+F 1 "1k" V 4450 6700 50  0000 C CNN
+F 2 "" H 4500 6550 50  0001 C CNN
+F 3 "~" H 4500 6550 50  0001 C CNN
+	1    4500 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C23F0
+P 4950 6550
+F 0 "D?" H 5100 6500 50  0000 C CNN
+F 1 "LED" H 4700 6500 50  0000 C CNN
+F 2 "" H 4950 6550 50  0001 C CNN
+F 3 "~" H 4950 6550 50  0001 C CNN
+	1    4950 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6550 4800 6550
+Wire Wire Line
+	4400 6550 4200 6550
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C23F8
+P 4500 6650
+F 0 "R?" V 4450 6500 50  0000 C CNN
+F 1 "1k" V 4450 6800 50  0000 C CNN
+F 2 "" H 4500 6650 50  0001 C CNN
+F 3 "~" H 4500 6650 50  0001 C CNN
+	1    4500 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C23FE
+P 4950 6650
+F 0 "D?" H 5100 6600 50  0000 C CNN
+F 1 "LED" H 4700 6600 50  0000 C CNN
+F 2 "" H 4950 6650 50  0001 C CNN
+F 3 "~" H 4950 6650 50  0001 C CNN
+	1    4950 6650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6650 4800 6650
+Wire Wire Line
+	4400 6650 4200 6650
+$Comp
+L Device:R_Small_US R?
+U 1 1 635C2406
+P 4500 6750
+F 0 "R?" V 4450 6600 50  0000 C CNN
+F 1 "1k" V 4450 6900 50  0000 C CNN
+F 2 "" H 4500 6750 50  0001 C CNN
+F 3 "~" H 4500 6750 50  0001 C CNN
+	1    4500 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 635C240C
+P 4950 6750
+F 0 "D?" H 5100 6700 50  0000 C CNN
+F 1 "LED" H 4700 6700 50  0000 C CNN
+F 2 "" H 4950 6750 50  0001 C CNN
+F 3 "~" H 4950 6750 50  0001 C CNN
+	1    4950 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6750 4800 6750
+Wire Wire Line
+	4400 6750 4200 6750
+Text GLabel 3400 3350 2    50   Input ~ 0
+2_8
+Text GLabel 3400 3250 2    50   Input ~ 0
+2_7
+Text GLabel 3400 3150 2    50   Input ~ 0
+2_6
+Text GLabel 3400 3050 2    50   Input ~ 0
+2_5
+Text GLabel 3400 2950 2    50   Input ~ 0
+2_4
+Text GLabel 3400 2850 2    50   Input ~ 0
+2_3
+Text GLabel 3400 2750 2    50   Input ~ 0
+2_2
+Text GLabel 3400 2650 2    50   Input ~ 0
+2_1
+Text GLabel 3900 3350 0    50   Input ~ 0
+2_8
+Text GLabel 3900 3250 0    50   Input ~ 0
+2_7
+Text GLabel 3900 3150 0    50   Input ~ 0
+2_6
+Text GLabel 3900 3050 0    50   Input ~ 0
+2_5
+Text GLabel 3900 2950 0    50   Input ~ 0
+2_4
+Text GLabel 3900 2850 0    50   Input ~ 0
+2_3
+Text GLabel 3900 2750 0    50   Input ~ 0
+2_2
+Text GLabel 3900 2650 0    50   Input ~ 0
+2_1
+Text GLabel 5700 3400 0    50   Input ~ 0
+2_8
+Text GLabel 5700 3300 0    50   Input ~ 0
+2_7
+Text GLabel 5700 3200 0    50   Input ~ 0
+2_6
+Text GLabel 5700 3100 0    50   Input ~ 0
+2_5
+Text GLabel 5700 3000 0    50   Input ~ 0
+2_4
+Text GLabel 5700 2900 0    50   Input ~ 0
+2_3
+Text GLabel 5700 2800 0    50   Input ~ 0
+2_2
+Text GLabel 5700 2700 0    50   Input ~ 0
+2_1
+Wire Wire Line
+	2800 5850 2800 5150
+Wire Wire Line
+	2800 5150 2700 5150
+Text GLabel 2700 4350 2    50   Input ~ 0
+3_1
+Text GLabel 2700 4450 2    50   Input ~ 0
+3_2
+Text GLabel 2700 4550 2    50   Input ~ 0
+3_3
+Text GLabel 2700 4650 2    50   Input ~ 0
+3_4
+Text GLabel 2700 4750 2    50   Input ~ 0
+3_5
+Text GLabel 2700 4850 2    50   Input ~ 0
+3_6
+Text GLabel 2700 4950 2    50   Input ~ 0
+3_7
+Text GLabel 2700 5050 2    50   Input ~ 0
+3_8
+Text GLabel 3200 4350 0    50   Input ~ 0
+3_1
+Text GLabel 3200 4450 0    50   Input ~ 0
+3_2
+Text GLabel 3200 4550 0    50   Input ~ 0
+3_3
+Text GLabel 3200 4650 0    50   Input ~ 0
+3_4
+Text GLabel 3200 4750 0    50   Input ~ 0
+3_5
+Text GLabel 3200 4850 0    50   Input ~ 0
+3_6
+Text GLabel 3200 4950 0    50   Input ~ 0
+3_7
+Text GLabel 3200 5050 0    50   Input ~ 0
+3_8
+Text GLabel 5000 4400 0    50   Input ~ 0
+3_1
+Text GLabel 5000 4500 0    50   Input ~ 0
+3_2
+Text GLabel 5000 4600 0    50   Input ~ 0
+3_3
+Text GLabel 5000 4700 0    50   Input ~ 0
+3_4
+Text GLabel 5000 4800 0    50   Input ~ 0
+3_5
+Text GLabel 5000 4900 0    50   Input ~ 0
+3_6
+Text GLabel 5000 5000 0    50   Input ~ 0
+3_7
+Text GLabel 5000 5100 0    50   Input ~ 0
+3_8
+Text GLabel 1900 6000 2    50   Input ~ 0
+4_1
+Text GLabel 1900 6100 2    50   Input ~ 0
+4_2
+Text GLabel 1900 6200 2    50   Input ~ 0
+4_3
+Text GLabel 1900 6300 2    50   Input ~ 0
+4_4
+Text GLabel 1900 6400 2    50   Input ~ 0
+4_5
+Text GLabel 1900 6500 2    50   Input ~ 0
+4_6
+Text GLabel 1900 6600 2    50   Input ~ 0
+4_7
+Text GLabel 1900 6700 2    50   Input ~ 0
+4_8
+Text GLabel 2400 6000 0    50   Input ~ 0
+4_1
+Text GLabel 2400 6100 0    50   Input ~ 0
+4_2
+Text GLabel 2400 6200 0    50   Input ~ 0
+4_3
+Text GLabel 2400 6300 0    50   Input ~ 0
+4_4
+Text GLabel 2400 6400 0    50   Input ~ 0
+4_5
+Text GLabel 2400 6500 0    50   Input ~ 0
+4_6
+Text GLabel 2400 6600 0    50   Input ~ 0
+4_7
+Text GLabel 2400 6700 0    50   Input ~ 0
+4_8
+Text GLabel 4200 6050 0    50   Input ~ 0
+4_1
+Text GLabel 4200 6150 0    50   Input ~ 0
+4_2
+Text GLabel 4200 6250 0    50   Input ~ 0
+4_3
+Text GLabel 4200 6350 0    50   Input ~ 0
+4_4
+Text GLabel 4200 6450 0    50   Input ~ 0
+4_5
+Text GLabel 4200 6550 0    50   Input ~ 0
+4_6
+Text GLabel 4200 6650 0    50   Input ~ 0
+4_7
+Text GLabel 4200 6750 0    50   Input ~ 0
+4_8
+$EndSCHEMATC

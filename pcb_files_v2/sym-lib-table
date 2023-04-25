@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "waterwheel_synth_v1-rescue")(type "Legacy")(uri "${KIPRJMOD}/waterwheel_synth_v2-rescue.lib")(options "")(descr ""))
+  (lib (name "waterwheel_synth_v2-rescue")(type "Legacy")(uri "${KIPRJMOD}/waterwheel_synth_v2-rescue.lib")(options "")(descr ""))
+)
