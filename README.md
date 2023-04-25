@@ -1,3 +1,7 @@
+# The Water Wheel of TIME
+this is a drum machine , synthesizer sequncer, ambient sound machine crted using a waterwheel as the tempo generation
+
+
 # Notes about Waterwheel Synthesizer project
 
 DAY 1
