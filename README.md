@@ -1,7 +1,10 @@
 # The Water Wheel of TIME
 this is a drum machine , synthesizer sequncer, ambient sound machine crted using a waterwheel as the tempo generation
 
-
+# PCB errors
+- no pulldown for clock
+- 555 footprint doesnt fit
+- silkscreen label coverd up by connector
 # Notes about Waterwheel Synthesizer project
 
 DAY 1
