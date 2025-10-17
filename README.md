@@ -1,25 +1,45 @@
 # The Water Wheel of TIME
-this is a drum machine , synthesizer sequncer, ambient sound machine crted using a waterwheel as the tempo generation
+
+this is a drum machine , synthesizer sequncer, ambient sound machine created using a waterwheel as the tempo generation
+
+# Technical Overview
+
+-16 step bass synthesizer sequencer
+-8 step, 4 sample drum sequencer
+-2x motor outputs, motors mounted in the instrument area, creating sounds by clever mounting with the motors hitting parts of the frame.
+-All timing and sequencing done with CD4xxx logic chips and digital circuity, a complex puzzle of logic chips, inputs and outputs and buffering.
+-the note input of the synthesizer is a drawing of a waterwheel and tree house (homage to Neil s backyard). We cut these pieces out of metal and are using capacitive touch to send those notes to the synthesizer.
+-1 big sample button to trigger a sample whenever the performer wants
 
 # PCB errors
+
 - no pulldown for clock
 - 555 footprint doesnt fit
 - silkscreen label coverd up by connector
+
 # Notes about Waterwheel Synthesizer project
 
-DAY 1
- - experiement with old Volca Keys and Bass, 
- - come up with idea for 64 switches, start working on schematic 
+## Oct. 2022 Notes
 
-DAY 2 - 
+DAY 1
+
+- experiement with old Volca Keys and Bass,
+- come up with idea for 64 switches, start working on schematic
+
+DAY 2 -
+
 - install reed switch and magnets on wheel
 - tweak to get them all working
--  Prototype 4017 sequencer, 2 channel 4 steps each. 
--  need AND circuit to get triggers for each step, use 4093 NAND chip. 
-- sucess with sample player with SD card! 
+- Prototype 4017 sequencer, 2 channel 4 steps each.
+- need AND circuit to get triggers for each step, use 4093 NAND chip.
+- sucess with sample player with SD card!
+
 ### research
+
 I want sample playback for drum sounds
-#### Requirements  
+
+#### Requirements
+
 - needs to be quick (adafruit sound fx board takes 125ms to trigger!)
 - want to change samples on the fly with sd card or IDEALLY usb stick
 - No external hardware other then what i have.. no teensy audio shields
@@ -39,5 +59,3 @@ I want sample playback for drum sounds
 [MFOS 4017 sequencer lots of good info on how it works](http://musicfromouterspace.com/analogsynth_new/TENSTEPSEQUENCER/TENSTEPSEQUENCER.php)
 
 [classic baby 10 sequencer](https://hackaday.com/2016/01/14/oh-baby-baby10-build-a-classic-analog-music-sequencer/)
-
-
