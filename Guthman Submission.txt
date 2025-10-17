@@ -1,0 +1,41 @@
+Please provide a brief bio of you or your group (100 words max).
+
+We are small group of friends who love creating DIY art and music. We have collectively toured to the ends of the earth for countless years doing interactive musical performances in basements and venues alike. Neil is a DIY music cult icon, performing as Terror Pigeon and creating immersive spaces and shows like no other. Jen is a mechanical engineer and artist making MIDI instruments and immersive installations of other-worldy delights. William is an artist and electrical engineer, graduated from Georgia Tech in 2022. He explores the limitless potential of light, sound, video, and electronics for creative expression of everyone. 
+
+7.Please provide a brief description of your instrument (100 words max).
+
+Neil and Jen built this waterwheel in Neil's backyard in 2021. They asked William to turn the waterwheel into a music making machine. It is a synthesizer, drum machine, and kinetic logic music machine. When it rains, the wheel spins, thus triggering the machine to advance from one step to another. 
+
+8.If there is a web site or web page specific to your instrument, please list it here.
+
+https://freakylamps.com/waterwheel
+
+
+9.Please provide a link to a photo of your instrument (high resolution, landscape orientation).
+Enter your answer
+
+10.Please provide a link to a 3-5 minute video about your instrument, intended for a non-expert audience. In the video, please demonstrate your instrument with a brief performance, explain your motivation for creating it, and explain its current or potential impact. The video must be hosted on YouTube.
+
+https://www.youtube.com/watch?v=vC32thTY1A0
+
+
+11.Explain to the judges the most unique design features of your instrument. (100 words max)
+
+We use the flow of water to control an electronic instrument, blending nature with the inorganic circuity. The harder it rains, the faster and more animated the system becomes. When there is no rain, it sits as a dormant ambient sound generating machine. Due to the raw nature of the machine, it picks up on ambient conditions (the ghost in the machine) and there is an aleatoric element to the machine, requiring the performer to improvise with the machine. 
+
+12.Explain to the judges the most unique engineering features of your instrument. (100 words max)
+
+- 16 step bass synthesizer sequencer
+- 8 step, 4 sample drum sequencer
+- 2x motor outputs, motors mounted in the instrument area, creating sounds by clever mounting with the motors hitting parts of the frame. 
+- All timing and sequencing done with CD4xxx logic chips and digital circuity, a complex puzzle of logic chips, inputs and outputs and buffering. 
+- the note input of the synthesizer is a drawing of a waterwheel and tree house (homage to Neil’s backyard). We cut these pieces out of metal and are using capacitive touch to send those notes to the synthesizer. The drawing is cleverly arranged to have the white keys of a keyboard contains in the waterwheel drawing and the tree house drawing contains all the black keys. 
+- 1 big sample button to trigger a sample whenever the performer wants
+
+
+
+
+13.Explain to the judges the most unique musical features of your instrument. (100 words max)
+
+Musically, the waterwheel is its own complete music workstation, groove-box, and experimental composition tool. Layering electronic sounds with the analog sounds of motors, it offers expressive ways beyond your typical scale, melody, and rhythm paradigm. By rotating or moving the motors slightly, you can create new sounds by experimenting, inspiring creation of a new drum or bass sequence. 
+You can play a melody on the waterwheel drawing, using its cleverly arranged key sequence to inspire a new variation on the original idea. All of this is contingent on the correct environmental conditions (rain), so that you have a consistent performance. The rain sounds also play a sonic role, incorporating into the spacial ambiance. 
