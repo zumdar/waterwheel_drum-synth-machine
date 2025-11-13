@@ -1,3 +1,7 @@
+# The Wacky Waterwheel Wonder Machine!
+
+A synthesizer, drum machine, electromechanical, waterwheel powered musical intsrument!
+
 ![alt text](<Documentation/Photos_Video/IMG_6296(crop).jpg>)
 ![alt text](Documentation/Photos_Video/IMG_6299.jpg)
 ![alt text](Documentation/Photos_Video/IMG_3545_result.jpg)
@@ -34,7 +38,7 @@ You can play a melody on the waterwheel drawing, using its cleverly arranged key
 
 ## V1 - etched
 
-- Schematic was designed in October 2022. A PCB was designed and then etched in the backyard on copper clad FR4 board. Here is the design:
+- Schematic was designed in October 2022. A PCB (well 3 actually...) were designed and then etched on the driveway on copper clad FR4 board. Here is the design:
   ![alt text](<PCB/pcb_files_v1 - etched PCB/waterwheel_synth_V1_all.png>)
   ![alt text](Documentation/Photos_Video/etched_drum_seq_pcb.jpg)
 - The etched PCB was tested and then a full PCB was designed and fabricated by JLCPCB

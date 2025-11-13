@@ -7,6 +7,9 @@
    height="297mm"
    width="210mm"
    version="1.1"
+   inkscape:export-filename="waterwheel_synth_V1_all.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -12098,7 +12101,8 @@
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm" />
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#ffffffff" />
   <title
      id="title2">SVG Picture created as waterwheel_synth_v1-brd.svg date 2022/10/25 14:40:24 </title>
   <desc
