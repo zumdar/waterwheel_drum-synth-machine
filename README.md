@@ -1,7 +1,8 @@
-![alt text](<Documentation/Photos and Video/IMG_6296(crop).jpg>)
-![alt text](<Documentation/Photos and Video/IMG_6299.jpg>)
-![alt text](<Documentation/Photos and Video/IMG_3545_result.jpg>)
-[![youtube link](Documentation/Photos and Video/youtube_thumbnail_withPlay.jpg)](https://www.youtube.com/watch?v=vC32thTY1A0)
+![alt text](<Documentation/Photos_Video/IMG_6296(crop).jpg>)
+![alt text](Documentation/Photos_Video/IMG_6299.jpg)
+![alt text](Documentation/Photos_Video/IMG_3545_result.jpg)
+
+[![youtube link](Documentation/Photos_Video/youtube_thumbnail_withPlay.jpg)](https://www.youtube.com/watch?v=vC32thTY1A0)
 
 Started in Oct. 2022 in Nashville, TN as part of The Paradise Driveway residency, full working version complete in Oct. 2025.
 
@@ -29,46 +30,29 @@ You can play a melody on the waterwheel drawing, using its cleverly arranged key
 - the note input of the synthesizer is a drawing of a waterwheel and tree house (homage to Neil s backyard). We cut these pieces out of metal and are using capacitive touch to send those notes to the synthesizer.
 - 1 big sample button to trigger a sample whenever the performer wants
 
-# NOTES
+# PCB
 
-## PCB errors
+## V1 - etched
+
+- Schematic was designed in October 2022. A PCB was designed and then etched in the backyard on copper clad FR4 board. Here is the design:
+  ![alt text](<PCB/pcb_files_v1 - etched PCB/waterwheel_synth_V1_all.png>)
+  ![alt text](Documentation/Photos_Video/etched_drum_seq_pcb.jpg)
+- The etched PCB was tested and then a full PCB was designed and fabricated by JLCPCB
+
+## V2 - fabricated PCB
+
+![alt text](<PCB/pcb_files_v2 - fabricated PCB/pcb_v2_front.png>)
+![alt text](<PCB/pcb_files_v2 - fabricated PCB/pcb_v2_back.png>)
+
+[Link to Schematic for V2](https://github.com/zumdar/waterwheel_drum-synth-machine/blob/main/PCB/pcb_files_v2%20-%20fabricated%20PCB/waterwhel_V2_SCHEMATIC.pdf)
+
+## PCB V2 errors
 
 - no pulldown for clock
 - 555 footprint doesnt fit
 - some silkscreen labels are covered up by connectors
 
-### Personal Notes about Waterwheel Synthesizer project
-
-## Oct. 2022 Notes
-
-DAY 1
-
-- experiement with old Volca Keys and Bass,
-- come up with idea for 64 switches, start working on schematic
-
-DAY 2 -
-
-- install reed switch and magnets on wheel
-- tweak to get them all working
-- Prototype 4017 sequencer, 2 channel 4 steps each.
-- need AND circuit to get triggers for each step, use 4093 NAND chip.
-- sucess with sample player with SD card!
-
-### research
-
-I want sample playback for drum sounds
-
-#### System Requirements
-
-- needs to be quick (adafruit sound fx board takes 125ms to trigger!)
-- want to change samples on the fly with sd card or IDEALLY usb stick
-- No external hardware other then what i have.. no teensy audio shields
-  - esp, arduino, teensy
-- [teensy 4.0 sample player](https://forum.aemodular.com/thread/1214/teensy-4-sample-player) - pretty perfect except you need to do the wav to C++ conversion and upload new code for new samples....
-- [teensy polyphonic samples](https://github.com/newdigate/teensy-polyphony)
-- [teensy variable playback ](https://github.com/newdigate/teensy-variable-playback) - confusing library but you can play back samples.. do you need external audio shield?
-
-## References
+# References
 
 [getting trigger from sequencer - casper electronics ](https://web.archive.org/web/20130509102109/http://casperelectronics.com/2007/03/19/sequencer-update/)
 
